@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.flex-center {
+    @apply flex justify-center items-center;
+}
+
+
+.text-shadow-red-sm {
+    text-shadow: 1px 1px #f33054;
+}
+
+.text-shadow-black-sm {
+    text-shadow: 2px 3px 4px #2a2323;
+}
